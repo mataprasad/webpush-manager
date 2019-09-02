@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>ijooto | Dashboard</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- IonIcons -->
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">https://stage.the-stylist.in</button>
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          <span class="caret"></span>
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu" role="menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+      <li class="nav-item d-none d-sm-inline-block">
+        <span class="nav-link">You are currently on Basic plan.</span>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <button type="button" class="btn btn-primary btn-sm" style="padding: 4px 12px;margin-left: -5px;margin-top: 6px;">Upgrade</button>
+      </li>
+    </ul>
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Notifications Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <button data-toggle="dropdown" class="btn btn-primary white" style="border-radius: 50%; margin-top: 13px;"><i class="nav-icon fas fa-bell"></i></button>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">15 Notifications</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 friend requests
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 new reports
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <button data-toggle="dropdown" class="btn btn-link white" style="border-radius: 50%; margin-top: 6px;">
+          <img src="dist/img/user.png" class="img-circle elevation-2" style="height: 40px;" alt="User Image">
+        </button>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">
+            <div class="pl-20 pt-20">
+              <div class="fw-500 text-muted" style="color: #676767;font-size: 14px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;">Mata Prasad </div>
+              <div class="fw-500 text-muted" style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;">mata@puplrstylelabs.com</div>
+            </div>
+          </span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-home mr-2"></i> Dashboard
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-lock mr-2"></i> Change Password
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-user mr-2"></i> My Profile
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-credit-card mr-2"></i> Billing
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-power-off mr-2"></i> Logout
+          </a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar elevation-4 sidebar-light-primary">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link navbar-primary">
+      <img src="dist/img/AdminLTELogo.png" alt="ijooto logo" class="brand-image img-circle elevation-3"
+           style="opacity: .8">
+      <span class="brand-text font-weight-light">IJOOTO</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-home"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-bullhorn"></i>
+              <p>Send Notification</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-chart-line"></i>
+              <p>Campaign Reports</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-user-friends"></i>
+              <p>Create Audience</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-bell"></i>
+              <p>Set Welcome Notification</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-hand-pointer"></i>
+              <p>Subscription Prompt</p>
+            </a>
+          </li>
+          <li class="nav-item has-treeview menu-open">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-cog"></i>
+              <p>
+                Settings
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Integration Instructions</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index2.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>API Key</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index3.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Apps</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index3.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>General</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index3.html" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Invite Users</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+          <div class="alert alert-info alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <span>We have sent you a verification mail on your email ID. Please click on the link in the mail to verify your account.. Click here to resend the mail</span>
+          </div>
+          </div>
+        </div>
+        <div class="row mb-2 navbar navbar-white">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark">Dashboard</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <button class="btn btn-outline-primary" style="float: right;">
+              <i class="nav-icon fas fa-sync"></i>
+              <span class="ml-1">Refresh</span>
+            </button>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="callout callout-warning">
+              <small>Total Active Subscribers</small><i class="fa-pull-right fas fa-user-alt"></i>
+              <p class="text-bold size-50" style="font-size: 50px;">100</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="callout callout-success">
+              <small>Subscribers on Mobile</small><i class="fa-pull-right fas fa-mobile-alt"></i>
+              <p class="text-bold size-50" style="font-size: 50px;">100</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="callout callout-danger">
+              <small>Subscribers on Desktop</small><i class="fa-pull-right fas fa-desktop"></i>
+              <p class="text-bold size-50" style="font-size: 50px;">100</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-default color-palette-box">
+          <div class="card-header">
+            <button class="btn btn-link">Subscriber Overview</button>
+            <div style="float: right;">
+              <button class="btn btn-outline-primary"><i class="nav-icon fas fa-download"></i> Download CSV</button>
+              <div class="btn-group">
+                <div class="input-group" id="reportrange">
+                  <button type="button" class="btn btn-outline-primary float-right" id="daterange-btn">
+                    <i class="nav-icon fas fa-filter"></i> <span>Sep 2, 2019 To Sep 2, 2019</span>
+                    <i class="fas fa-caret-down"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="col-12">
+              <h5>Theme Colors</h5>
+            </div>
+            <!-- /.col-12 -->
+            <div class="row">
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center">Primary</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-primary color-palette"><span>#007bff</span></div>
+                  <div class="bg-primary disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center">Secondary</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-secondary color-palette"><span>#6c757d</span></div>
+                  <div class="bg-secondary disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center">Info</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-info color-palette"><span>#17a2b8</span></div>
+                  <div class="bg-info disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center">Success</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-success color-palette"><span>#28a745</span></div>
+                  <div class="bg-success disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-warning">Warning</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-warning color-palette"><span>#ffc107</span></div>
+                  <div class="bg-warning disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center">Danger</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-danger color-palette"><span>#dc3545</span></div>
+                  <div class="bg-danger disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+            <div class="col-12">
+              <h5 class="mt-3">Black/White Nuances</h5>
+            </div>
+            <!-- /.col-12 -->
+            <div class="row">
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center">Black</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-black color-palette"><span>#000000</span></div>
+                  <div class="bg-black disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center">Gray Dark</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-gray-dark color-palette"><span>#343a40</span></div>
+                  <div class="bg-gray-dark disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center">Gray</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-gray color-palette"><span>#adb5bd</span></div>
+                  <div class="bg-gray disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-light">Light</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-light color-palette"><span>#1f2d3d</span></div>
+                  <div class="bg-light disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+            <div class="col-12">
+              <h5 class="mt-3">Colors</h5>
+            </div>
+            <!-- /.col-12 -->
+            <div class="row">
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-indigo">Indigo</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-indigo color-palette"><span>#6610f2</span></div>
+                  <div class="bg-indigo disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-navy">Navy</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-navy color-palette"><span>#001f3f</span></div>
+                  <div class="bg-navy disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-purple">Purple</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-purple color-palette"><span>#605ca8</span></div>
+                  <div class="bg-purple disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-fuchsia">Fuchsia</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-fuchsia color-palette"><span>#f012be</span></div>
+                  <div class="bg-fuchsia disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-pink">Pink</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-pink color-palette"><span>#e83e8c</span></div>
+                  <div class="bg-pink disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-maroon">Maroon</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-maroon color-palette"><span>#d81b60</span></div>
+                  <div class="bg-maroon disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-orange">Orange</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-orange color-palette"><span>#ff851b</span></div>
+                  <div class="bg-orange disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-lime">Lime</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-lime color-palette"><span>#01ff70</span></div>
+                  <div class="bg-lime disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-teal">Teal</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-teal color-palette"><span>#39cccc</span></div>
+                  <div class="bg-teal disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-4 col-md-2">
+                <h4 class="text-center bg-olive">Olive</h4>
+
+                <div class="color-palette-set">
+                  <div class="bg-olive color-palette"><span>#3d9970</span></div>
+                  <div class="bg-olive disabled color-palette"><span>Disabled</span></div>
+                </div>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.0.0-rc.1
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="plugins/moment/moment.min.js"></script>
+<!-- date-range-picker -->
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- AdminLTE -->
+<script src="dist/js/adminlte.js"></script>
+
+<!-- OPTIONAL SCRIPTS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<script src="dist/js/demo.js"></script>
+<script src="dist/js/pages/dashboard3.js"></script>
+<script>
+  $(document).ready(function () {
+    //Date range as a button
+    $('#daterange-btn').daterangepicker(
+            {
+              ranges   : {
+                'Today'       : [moment(), moment()],
+                'Yesterday'   : [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                'Last 7 Days' : [moment().subtract(6, 'days'), moment()],
+                'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+                'This Month'  : [moment().startOf('month'), moment().endOf('month')],
+                'Last Month'  : [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+              },
+              startDate: moment().subtract(29, 'days'),
+              endDate  : moment()
+            },
+            function (start, end) {
+              $('#reportrange span').html(start.format('MMM D, YYYY') + ' To ' + end.format('MMM D, YYYY'))
+            }
+    )
+  })
+</script>
+</body>
+</html>
